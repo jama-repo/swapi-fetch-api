@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Prueba JAVASCRIPT</title>
+	<style type="text/css" li> </style>
+	<link rel="stylesheet" type="text/css" href="./public/assets/css/style.css">
+</head>
+<body>
+	<div>
+		<div class="all">
+			<button type="button" onclick="API.getFilms()"> Print Films</button>
+			<div align="center" id="loading">
+				<img align="center"  src="./public/assets/img/loading.gif" width="10%">
+				Cargando...
+			</div>
+		</div>
+
+	</div>
+	<div id="films"></div>
+</body>
+<script type="text/javascript" src="./src/model/Card.js"></script>
+<script type="text/javascript" src="./src/api/api.js"></script>
+</html>
